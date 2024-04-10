@@ -16,7 +16,7 @@ spec:
         app: nginx-deploy
     spec:
       containers:
-      - image: nginx
+      - image: nginx:1.24.1
         name: nginx-deploy
         imagePullPolicy: Always
         ports:
